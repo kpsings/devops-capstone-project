@@ -18,8 +18,8 @@ spec:
         app: accounts
     spec:
       containers:
-       - image: IMAGE_NAME_HERE
-         name: accounts
+      - image: IMAGE_NAME_HERE
+        name: accounts
         resources: {}
 
         env:
@@ -40,4 +40,3 @@ spec:
               secretKeyRef:
                 name: postgresql
                 key: database-user
-status: {}
